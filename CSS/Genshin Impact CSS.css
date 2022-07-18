@@ -1,0 +1,61 @@
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    div.whole{
+      border: 5px solid black;
+      width: 80%;
+      margin: 0 auto 0 auto;
+    }
+    div.paimon{
+      border: 5px solid darkred;
+      float: left;
+    }
+    div.picture{
+      border: 5px solid darkred;
+      float: right;
+    }
+    
+    header{
+      background-color: black;
+      color: lightblue;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    nav{
+      background-color: darkred;
+    }
+    
+    ul{
+      text-align: left;
+    }
+    
+    li{
+      display: inline-block;
+      width: 200px;
+      border: 2px solid white;
+      line-height: 5em;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-variant: small-caps;
+    }
+    
+    li2{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-variant: small-caps;
+    
+    }
+    
+    a{
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      color: white;
+    }
+    
+    main{
+      background-color: black;
+      color: white;
+      width: 100%;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
